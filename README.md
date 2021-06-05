@@ -17,13 +17,13 @@ This is a solution to the [Project tracking intro component challenge on Fronten
 
 ### Screenshot
 
-![Desktop View](./images/ss1.png)
-![Mobile View](./images/ss2.png)
+![](./images/ss1.png)
+![](./images/ss2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/samirhembrom/Frontend-Mentor---Project-tracking-intro-component-solution)
+- [Live Site URL](https://frontend-mentor-project-tracking-intro-component-solution.vercel.app/)
 
 ## My process
 
