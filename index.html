@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Project tracking intro component</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onresize="onChangeWidth()">
+    <header>
+      <div class="container header__container">
+        <a href="#" class="top-logo">
+          <img src="images/logo.svg" alt="Home" />
+        </a>
+        <button class="menu-btn">
+          <span class="menu-btn__hamburger"></span>
+        </button>
+        <nav class="nav hidden d-none">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Product</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Features</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--modifier">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero__img">
+          <img
+            src="images/illustration-devices.svg"
+            alt=""
+            class="img_illustration"
+          />
+        </div>
+        <div class="hero__body">
+          <span class="hero__body--modifier">New</span>
+          <p class="hero__body__subheading">Monograph Dashboard</p>
+          <h1 class="hero__body__title">Powerful insights into your team</h1>
+          <p class="hero__body__text">
+            Project planning and time tracking<br />
+            for agile teams
+          </p>
+          <a href="#" class="hero__btn">Schedule a demo</a>
+          <p class="hero__text__after__btn">to see a live preview</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/samirhembrom" target="_blank">Samir</a>.
+      </p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
