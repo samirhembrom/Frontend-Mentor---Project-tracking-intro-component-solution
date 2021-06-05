@@ -240,7 +240,6 @@ body::before {
     position: static;
     transform: translateX(0);
     box-shadow: 0 0 0 0;
-    width: 50%;
     max-width: 450px;
     margin: 0;
     padding: 0;
@@ -366,7 +365,9 @@ a:focus {
 @media screen and (min-width: 769px) {
   .img_illustration {
     width: 960px;
-    height: 100%;
+    max-width: 960px;
+    height: 464px;
+    max-height: 464px;
   }
 }
 
